@@ -1,0 +1,29 @@
+{
+  "name": "brain-games",
+  "version": "0.0.1",
+  "description": "Hexlet project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtyomPerederiy/backend-project-lvl1.git"
+  },
+  "keywords": [
+    "brain",
+    "games"
+  ],
+  "author": "Artyom Perederiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtyomPerederiy/backend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/ArtyomPerederiy/backend-project-lvl1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
+  }
+}
