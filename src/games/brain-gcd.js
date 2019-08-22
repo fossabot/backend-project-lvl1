@@ -3,7 +3,7 @@ import start, { getRndNumInRange, cons } from '..';
 const rules = 'Find the greatest common divisor of given numbers.';
 
 // euclid algorithm for getGcd
-const getGcd = (a, b) => (!a ? a : getGcd(b, a % b));
+const getGcd = (a, b) => (!b ? a : getGcd(b, a % b));
 
 const gameData = () => {
   const firstNum = getRndNumInRange(0, 11);
