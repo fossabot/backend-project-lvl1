@@ -6,7 +6,7 @@ const getGcd = (firstNum, secondNum) => {
   if (firstNum > secondNum) return getGcd(secondNum, firstNum);
   if (!secondNum) return `${firstNum}`;
   return getGcd(secondNum, secondNum % firstNum);
-}
+};
 
 const gameData = () => {
   const firstNum = getRndNumInRange(0, 11);
