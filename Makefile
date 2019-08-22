@@ -10,6 +10,10 @@ start1:
 start2:
 	npx babel-node src/bin/brain-gcd.js
 
+start3:
+	npx babel-node src/bin/brain-progression.js
+
+
 publish:
 	npm publish --dry-run
 
