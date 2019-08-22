@@ -27,7 +27,7 @@ export default (gameRules, gameData) => {
   for (let correctCount = 0; correctCount < correctAnswerInRow; correctCount += 1) {
     const getGameData = gameData();
     const question = car(getGameData);
-    const rightAnswer = cdr(getGameData);
+    const rightAnswer = String(cdr(getGameData));
     console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== rightAnswer) {
