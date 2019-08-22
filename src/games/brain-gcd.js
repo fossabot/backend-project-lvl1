@@ -2,11 +2,8 @@ import start, { getRndNumInRange, cons } from '..';
 
 const rules = 'Find the greatest common divisor of given numbers.';
 
-const getGcd = (firstNum, secondNum) => {
-  if (firstNum > secondNum) return getGcd(secondNum, firstNum);
-  if (!secondNum) return `${firstNum}`;
-  return getGcd(secondNum, secondNum % firstNum);
-};
+// euclid algorithm for getGcd
+const getGcd = (a, b) => (!a ? a : getGcd(b, a % b));
 
 const gameData = () => {
   const firstNum = getRndNumInRange(0, 11);
