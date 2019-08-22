@@ -6,11 +6,7 @@ const progressionLength = 10;
 const getProgression = (from, step, indexOfHidden) => {
   let result = '';
   for (let i = 0; i < progressionLength; i += 1) {
-    if (i === indexOfHidden) {
-      result = `${result} ... `;
-    } else {
-      result = `${result} ${from + (step * i)} `;
-    }
+    result = i === indexOfHidden ? `${result} ... ` : `${result} ${from + (step * i)}`;
   }
   return result;
 };
