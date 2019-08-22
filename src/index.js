@@ -1,6 +1,5 @@
 import readlineSync from 'readline-sync';
 
-const ask = (question) => readlineSync.question(`${question} `);
 const getRndNumInRange = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 
 // Pair logic
@@ -22,7 +21,7 @@ const correctAnswerInRow = 3;
 
 export default (gameRules, gameData) => {
   console.log(`Welcome to the Brain Games!\n${gameRules}\n`);
-  const name = ask('May I have your name?');
+  const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}`);
 
   for (let correctCount = 0; correctCount < correctAnswerInRow; correctCount += 1) {
@@ -30,7 +29,7 @@ export default (gameRules, gameData) => {
     const question = car(getGameData);
     const rightAnswer = cdr(getGameData);
     console.log(`Question: ${question}`);
-    const userAnswer = ask('Your answer:');
+    const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== rightAnswer) {
       console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${rightAnswer}'`);
       console.log(`Let's try again, ${name}!`);
