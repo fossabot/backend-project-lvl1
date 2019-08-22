@@ -1,10 +1,10 @@
 {
   "name": "brain-games",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Hexlet project",
   "main": "index.js",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
