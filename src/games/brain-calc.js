@@ -5,11 +5,11 @@ const signs = '+-*';
 const calculateExpression = (firstNum, secondNum, sign) => {
   switch (sign) {
     case '+':
-      return `${firstNum + secondNum}`;
+      return firstNum + secondNum;
     case '-':
-      return `${firstNum - secondNum}`;
+      return firstNum - secondNum;
     case '*':
-      return `${firstNum * secondNum}`;
+      return firstNum * secondNum;
     default:
       return `Error! '${sign}' is wrong sign.`;
   }
