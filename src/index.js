@@ -22,7 +22,7 @@ const correctAnswerInRow = 3;
 export default (gameRules, gameData) => {
   console.log(`Welcome to the Brain Games!\n${gameRules}\n`);
   const name = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${name}`);
+  console.log(`Hello, ${name}\n`);
 
   for (let correctCount = 0; correctCount < correctAnswerInRow; correctCount += 1) {
     const getGameData = gameData();
