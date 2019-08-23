@@ -12,9 +12,9 @@ const getProgression = (from, step, indexOfHidden) => {
 };
 
 const gameData = () => {
-  const from = getRndNumInRange(0, 11);
-  const step = getRndNumInRange(1, 11);
-  const indexOfHidden = getRndNumInRange(0, progressionLength);
+  const from = getRndNumInRange(0, 10);
+  const step = getRndNumInRange(1, 10);
+  const indexOfHidden = getRndNumInRange(0, progressionLength - 1);
   const question = getProgression(from, step, indexOfHidden);
   const rightAnswer = from + (step * indexOfHidden);
   return cons(question, rightAnswer);

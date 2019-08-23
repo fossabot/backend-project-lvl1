@@ -16,9 +16,9 @@ const calculateExpression = (firstNum, secondNum, sign) => {
 };
 
 const gameData = () => {
-  const firstNum = getRndNumInRange(0, 11);
-  const secondNum = getRndNumInRange(0, 11);
-  const sign = signs[getRndNumInRange(0, signs.length)];
+  const firstNum = getRndNumInRange(0, 10);
+  const secondNum = getRndNumInRange(0, 10);
+  const sign = signs[getRndNumInRange(0, signs.length - 1)];
   const question = `${firstNum} ${sign} ${secondNum}`;
   const righAnswer = calculateExpression(firstNum, secondNum, sign);
   return cons(question, righAnswer);

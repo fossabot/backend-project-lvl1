@@ -6,7 +6,7 @@ const isEven = (num) => (num % 2 === 0 ? 'yes' : 'no');
 
 
 const gameData = () => {
-  const question = getRndNumInRange(0, 16);
+  const question = getRndNumInRange(0, 20);
   const rightAnswer = isEven(question);
   return cons(question, rightAnswer);
 };

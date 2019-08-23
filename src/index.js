@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const getRndNumInRange = (min, max) => Math.floor(Math.random() * (max - min)) + min;
+const getRndNumInRange = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 // Pair logic
 const cons = (first, second) => (carOrCdr) => {
