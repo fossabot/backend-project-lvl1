@@ -4,9 +4,11 @@ const rules = ('Answer "yes" if number even otherwise answer "no".');
 
 const isEven = (num) => (num % 2 === 0 ? 'yes' : 'no');
 
+const minNum = 0;
+const maxNum = 20;
 
 const gameData = () => {
-  const question = getRndNumInRange(0, 20);
+  const question = getRndNumInRange(minNum, maxNum);
   const rightAnswer = isEven(question);
   return cons(question, rightAnswer);
 };

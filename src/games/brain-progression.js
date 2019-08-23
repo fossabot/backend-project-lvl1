@@ -11,10 +11,17 @@ const getProgression = (from, step, indexOfHidden) => {
   return result;
 };
 
+const minFromNum = 0;
+const maxFromNum = 10;
+const minStepNum = 1;
+const maxStepNum = 10;
+const minIndexOfHidden = 0;
+const maxIndexOfHdden = progressionLength - 1;
+
 const gameData = () => {
-  const from = getRndNumInRange(0, 10);
-  const step = getRndNumInRange(1, 10);
-  const indexOfHidden = getRndNumInRange(0, progressionLength - 1);
+  const from = getRndNumInRange(minFromNum, maxFromNum);
+  const step = getRndNumInRange(minStepNum, maxStepNum);
+  const indexOfHidden = getRndNumInRange(minIndexOfHidden, maxIndexOfHdden);
   const question = getProgression(from, step, indexOfHidden);
   const rightAnswer = from + (step * indexOfHidden);
   return cons(question, rightAnswer);

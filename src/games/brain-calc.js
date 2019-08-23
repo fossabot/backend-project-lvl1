@@ -15,10 +15,15 @@ const calculateExpression = (firstNum, secondNum, sign) => {
   }
 };
 
+const minNum = 0;
+const maxNum = 10;
+const minSignIndex = 0;
+const maxSignIndex = signs.length - 1;
+
 const gameData = () => {
-  const firstNum = getRndNumInRange(0, 10);
-  const secondNum = getRndNumInRange(0, 10);
-  const sign = signs[getRndNumInRange(0, signs.length - 1)];
+  const firstNum = getRndNumInRange(minNum, maxNum);
+  const secondNum = getRndNumInRange(minNum, maxNum);
+  const sign = signs[getRndNumInRange(minSignIndex, maxSignIndex)];
   const question = `${firstNum} ${sign} ${secondNum}`;
   const righAnswer = calculateExpression(firstNum, secondNum, sign);
   return cons(question, righAnswer);
