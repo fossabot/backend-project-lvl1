@@ -1,7 +1,7 @@
 # Brain Games
 Study project on node.js
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/acf9611492553fa45791/maintainability)](https://codeclimate.com/github/ArtyomPerederiy/backend-project-lvl1/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/acf9611492553fa45791/test_coverage)](https://codeclimate.com/github/ArtyomPerederiy/backend-project-lvl1/test_coverage) [![Build Status](https://travis-ci.org/ArtyomPerederiy/backend-project-lvl1.svg?branch=master)](https://travis-ci.org/ArtyomPerederiy/backend-project-lvl1)
+[![Maintainability](https://api.codeclimate.com/v1/badges/acf9611492553fa45791/maintainability)](https://codeclimate.com/github/ArtyomPerederiy/backend-project-lvl1/maintainability) [![Build Status](https://travis-ci.org/ArtyomPerederiy/backend-project-lvl1.svg?branch=master)](https://travis-ci.org/ArtyomPerederiy/backend-project-lvl1)
 
 #### Game rules: 
 brain-even: Answer "yes" if number even otherwise answer "no".
