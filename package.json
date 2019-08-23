@@ -1,6 +1,6 @@
 {
   "name": "@artperederiy/brain-games",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Hexlet project",
   "main": "index.js",
   "bin": {
