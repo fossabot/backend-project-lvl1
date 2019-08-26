@@ -2,7 +2,6 @@
   "name": "@artperederiy/brain-games",
   "version": "1.0.7",
   "description": "Hexlet project",
-  "main": "index.js",
   "bin": {
     "brain-even": "dist/bin/brain-even.js",
     "brain-calc": "dist/bin/brain-calc.js",
