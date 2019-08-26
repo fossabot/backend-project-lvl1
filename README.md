@@ -44,6 +44,7 @@ brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
 ### Install from NPM 
 
 [![asciicast](https://asciinema.org/a/kwdxryavEdHavbyW1AEgg5Kd8.svg)](https://asciinema.org/a/kwdxryavEdHavbyW1AEgg5Kd8)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FArtyomPerederiy%2Fbackend-project-lvl1.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FArtyomPerederiy%2Fbackend-project-lvl1?ref=badge_shield)
 
 ### brain-even
 [![asciicast](https://asciinema.org/a/263892.svg)](https://asciinema.org/a/263892)
@@ -60,3 +61,7 @@ brain-prime: Answer "yes" if given number is prime. Otherwise answer "no".
 ### brain-prime
 [![asciicast](https://asciinema.org/a/263906.svg)](https://asciinema.org/a/263906)
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FArtyomPerederiy%2Fbackend-project-lvl1.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FArtyomPerederiy%2Fbackend-project-lvl1?ref=badge_large)
